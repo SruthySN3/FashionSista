@@ -1,0 +1,111 @@
+/* Reset default margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Style the header */
+header {
+    background: linear-gradient(to bottom, #FBC2EB, #78A3EB);
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+/* Style the main content */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style each fashion tip */
+.tip {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tip h2 {
+    font-size: 24px;
+    color: #ff69b4;
+    margin: 0 0 10px;
+}
+
+.tip p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Style images within fashion tips */
+.tip img {
+    max-width: 100%; /* Ensure the image fits the container width */
+    margin-top: 20px; /* Space between text and image */
+}
+
+/* Adjust the styles for the 'a' tags within the tips, e.g., if you want to remove underlines */
+.tip a {
+    text-decoration: none;
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+/* Style the links in the header */
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Stylish fonts and text color for links within the tips */
+.tip a {
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+/* Add a hover effect for links */
+.tip a:hover {
+    text-decoration: underline;
+    color: #ff407c;
+}
+#contact {
+    position: relative;
+    margin-top: 100px; /* Adjust this value as needed to leave space for the footer */
+}
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftFooter img,
+.leftFooter p {
+    margin: 10px 0;
+}
+
+.rightFooter a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+}
